@@ -68,6 +68,8 @@ Dentro de segundo, realizaremos el mismo proceso pero con el html que queramos p
 
 ![imagen](https://user-images.githubusercontent.com/95173613/166830941-2c7d83c3-a9f0-4c6f-9d41-8571c48b5cb8.png)
 
+Acabaremos con el contenido tal que, la carpeta primero tendrá un archivo de nombre index.html y la carpeta segundo también tendrá un archivo de nombre index.html. 
+
 ## Configuración de hosts
 
 Para finalizar, deberemos de tocar el archivo hosts para que cuando pongamos `primero.jordi.com` y `segundo.jordi.com` nos muestre la página correspondiente.
