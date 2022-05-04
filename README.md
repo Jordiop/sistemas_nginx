@@ -33,6 +33,23 @@ Simplemente bit rain, todo informático tiene el deber de saber qué es y disfru
 
 ## Configuración de Nginx
 
-En el enunciado se nos solicita que con virtual hosts creemos dos subdominios, uno para cada página html que elijamos.
+En el enunciado se nos solicita que con virtual hosts creemos dos subdominios, uno para cada página html que elijamos. Los dos subdominios que voy a definir son *primero* y *segundo* tal que el resultado sea `primero.jordi.com` y `segundo.jordi.com`
 
-Para conseguir esto tendremos que realizar algunos cambios a la configuración.
+Para conseguir esto tendremos que realizar algunos cambios a la configuración predeterminada.
+
+En la ruta `/etc/nginx` entraremos en `sites-available`. El archivo *default* es el ejemplo y referencia que tenemos de la configuración de virtual hosts. 
+
+El default, como vemos a continuación, es dónde apunta el host de manera predeterminada.
+
+Para crar los nuevos sitios web, debemos hacer `sudo cp default primero.jordi.com` y `sudo cp default segundo.jordi.com`. Ahora en `/etc/nginx/sites-available` tendremos tres archivos, el default y nuestros 2 archivos para la configuración de subdominios.
+
+Con el comando `sudo nano primero.jordi.com` entraremos a la configuración del primer archivo:
+
+![imagen](https://user-images.githubusercontent.com/95173613/166828684-5007eac8-3765-401e-8a99-bfc7c4d9135b.png)
+
+Y cuando acabemos con el primero, deberemos proceder con el segundo, en este caso `sudo nano segundo.jordi.com`:
+
+![imagen](https://user-images.githubusercontent.com/95173613/166829094-7de75c11-c365-4b95-8a9c-38b46abadc90.png)
+
+
+
