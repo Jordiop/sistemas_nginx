@@ -3,6 +3,19 @@
 En esta práctica veremos como crear un servidor con el software "Nginx" y configurar 2 virtual hosts para alojar dos páginas con diferentes subdominios.
 Dichas páginas las obtendremos en la página "One-html-page-challenge".
 
+## Índice
+[1. Instalación de Nginx](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#instalaci%C3%B3n-de-nginx)
+
+[2. Configuración de Nginx](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-nginx)
+
+[3. Elección de las web](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-nginx)
+
+[4. Configuración de las web](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-las-dos-web)
+
+[5. Configuración de hosts](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-hosts)
+
+[6. Resultado final](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#resultado-final)
+
 ## Instalación de Nginx
 
 Simplemente, deberemos ejecutar el comando `sudo apt install nginx`.
@@ -46,7 +59,7 @@ Como resultado obtendremos dos links simbólicos para que Nginx sea redirigido a
 
 ![imagen](https://user-images.githubusercontent.com/95173613/166909557-612428c6-644d-4c4a-8ebc-04c98b75c763.png)
 
-## Elección de las dos webs 
+## Elección de las dos web
 
 Para este ejercicio, como he indiciado en la introducción, se nos propone elegir dos proyectos del "One-html-page-challenge". 
 
