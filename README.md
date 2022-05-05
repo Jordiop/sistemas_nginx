@@ -4,17 +4,17 @@ En esta práctica veremos como crear un servidor con el software "Nginx" y confi
 Dichas páginas las obtendremos en la página "One-html-page-challenge".
 
 ## Índice
-[1. Instalación de Nginx](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#instalaci%C3%B3n-de-nginx)
+[1. Instalación de Nginx](https://github.com/Jordiop/sistemas_nginx/blob/main/README.md#instalaci%C3%B3n-de-nginx)
 
-[2. Configuración de Nginx](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-nginx)
+[2. Configuración de Nginx](https://github.com/Jordiop/sistemas_nginx/blob/main/README.md#configuraci%C3%B3n-de-nginx)
 
-[3. Elección de las web](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-nginx)
+[3. Elección de las web](https://github.com/Jordiop/sistemas_nginx/blob/main/README.md#configuraci%C3%B3n-de-nginx)
 
-[4. Configuración de las web](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-las-dos-web)
+[4. Configuración de las web](https://github.com/Jordiop/sistemas_nginx/blob/main/README.md#configuraci%C3%B3n-de-las-dos-web)
 
-[5. Configuración de hosts](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#configuraci%C3%B3n-de-hosts)
+[5. Configuración de hosts](https://github.com/Jordiop/sistemas_nginx/blob/main/README.md#configuraci%C3%B3n-de-hosts)
 
-[6. Resultado final](https://github.com/Jordiop/sistemas_nginx/edit/main/README.md#resultado-final)
+[6. Resultado final](https://github.com/Jordiop/sistemas_nginx/blob/main/README.md#resultado-final)
 
 ## Instalación de Nginx
 
