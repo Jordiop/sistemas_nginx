@@ -35,6 +35,16 @@ Y cuando acabemos con el primero, deberemos proceder con el segundo, en este cas
 
 ![imagen](https://user-images.githubusercontent.com/95173613/166829094-7de75c11-c365-4b95-8a9c-38b46abadc90.png)
 
+Después de esto, deberemos "decirle" a Nginx que tiene dos web disponibles. Para ello vamos a usar links simbólicos que apunten a las webs correspondientes.
+
+En `/etc/nginx/sites-enabled` realizaremos los dos siguientes comandos: 
+
+`sudo ln -s ../sites-available/primero.jordi.com`
+`sudo ln -s ../sites-available/segundo.jordi.com`
+
+Como resultado obtendremos dos links simbólicos para que Nginx sea redirigido a nuestros archivos de configuración web sin tener que moverlos.
+
+![imagen](https://user-images.githubusercontent.com/95173613/166909557-612428c6-644d-4c4a-8ebc-04c98b75c763.png)
 
 ## Elección de las dos webs 
 
